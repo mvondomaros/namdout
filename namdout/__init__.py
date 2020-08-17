@@ -1,0 +1,1 @@
+from .namdout import read
