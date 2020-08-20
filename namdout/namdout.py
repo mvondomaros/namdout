@@ -25,7 +25,7 @@ def read(filename):
         values = read_values(fin)
         df = pd.DataFrame({h: v for h, v in zip(headers, values.T)})
 
-        df["filename"] = os.path.splitext(filename)[0]
+        df["filename"] = filename
         df["filename"] = df["filename"].astype("category")
 
         return df
