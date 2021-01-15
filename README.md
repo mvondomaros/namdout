@@ -9,7 +9,7 @@ pip install --upgrade git+git://github.com/mvondomaros/namdout.git
 ## Usage
 
 ```{python}
-import nadmout
+import namdout
 
 df = namdout.read("foo.out")
 ```
